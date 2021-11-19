@@ -87,6 +87,7 @@ function undoRedoCanvas(trackObj) {
     img.onload = (e) => {
         tool.drawImage(img, 0, 0, canvas.width, canvas.height);
     }
+    console.log(track);
 }
 
 function beginPath(strokeObj) {
