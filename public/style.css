@@ -49,11 +49,6 @@ body {
     
 }
 
-.tools-cont > * :hover{
-    
-    cursor: pointer;
-    
-}
 
 .pencil-tool-cont {
     background-color: #f1f2f6;
@@ -65,7 +60,10 @@ body {
     left: 25vw;
     border-radius: 3px;
     display: none;
+
+
 }
+
 .pencil-width-cont {
     height: 2rem;
     display: flex;
@@ -86,6 +84,10 @@ body {
     width: 1.5rem;
     height: 2rem;
     border-radius: 50%;
+}
+
+.pencil-color:hover{
+    cursor: pointer;
 }
 .black {
     background-color: black;
@@ -112,6 +114,10 @@ body {
     width: 80%;
 }
 
+.eraser:hover{
+    cursor: pointer;
+}
+
 .sticky-cont {
     height: 15rem;
     width: 15rem;
@@ -119,6 +125,8 @@ body {
     top: 15rem;
     left: 10rem;
 }
+
+
 .header-cont {
     height: 2rem;
     display: flex;
@@ -152,4 +160,28 @@ textarea {
 img {
     height: 100%;
     width: 100%;
+}
+
+.sticky:hover{
+    cursor: pointer;
+}
+
+.upload:hover{
+    cursor: pointer;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+.redo:hover{
+    cursor: pointer;
+}
+
+.undo:hover{
+    cursor: pointer;
+}
+
+.pencil:hover{
+    cursor: pointer;
 }
