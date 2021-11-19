@@ -49,11 +49,13 @@ canvas.addEventListener("mousemove", (e) => {
     }
 })
 canvas.addEventListener("mouseup", (e) => {
-    mouseDown = false;
+
+    if(mouseDown)
+    {mouseDown = false;
 
     let url = canvas.toDataURL();
     undoRedoTracker.push(url);
-    track = undoRedoTracker.length-1;
+    track = undoRedoTracker.length-1;}
 })
 
 undo.addEventListener("click", (e) => {
