@@ -15,6 +15,8 @@ let penWidth = pencilWidthElem.value;
 let eraserWidth = eraserWidthElem.value;
 
 let undoRedoTracker = []; //Data
+let url = canvas.toDataURL();
+undoRedoTracker.push(url);
 let track = 0; // Represent which action from tracker array
 
 let mouseDown = false;
