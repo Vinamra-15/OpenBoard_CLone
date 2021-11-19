@@ -46,7 +46,15 @@ body {
 .tools-cont > * {
     display: block;
     width: 4rem;
+    
 }
+
+.tools-cont > * :hover{
+    
+    cursor: pointer;
+    
+}
+
 .pencil-tool-cont {
     background-color: #f1f2f6;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
